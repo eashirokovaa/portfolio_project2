@@ -21,8 +21,7 @@
   text-align: center;
 }
 .header__button {
-  margin: 3px 0 0 30px;
-  color: #f9f8ee;
+  color: #795439;
 }
 .header__button:hover {
   background-color: #795439;
@@ -31,7 +30,8 @@
   transition: all 0.5s ease-in-out;
 }
 .header-container {
-  background-color: #795439;
+  border-bottom: solid #795439 1px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -39,9 +39,7 @@
   display: none;
   position: absolute;
   min-width: 160px;
-  z-index: 1;
 }
-/* Links inside the dropdown */
 .dropdown-content a {
   display: block;
   color: #f9f8ee;
@@ -49,11 +47,9 @@
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ceaf89;
 }
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: column;
@@ -61,24 +57,21 @@
 }
 .header-content {
   display: grid;
-  box-sizing: border-box;
-  height: 10vh;
+  height: 9vh;
   grid-template-rows: repeat(2, 1fr);
   justify-items: center;
-  margin-right: 50px;
 }
 .header-content__link {
-  color: #f9f8ee;
+  color: #795439;
   margin: auto;
 }
 .header-content__link:hover {
   text-decoration: none;
-  color: #f9f8ee;
+  color: #795439;
 }
-.header-content__link:hover > .header-content__phone {
-  margin-left: 14px;
+.header-content__phone:hover {
   text-decoration: none;
-  color: #f9f8ee;
+  color: #795439;
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
@@ -159,7 +152,7 @@ h2 {
   background-color: #fbab7e;
   background-image: url(/assets/img/cupcake.jpg);
 }
-.scrolling-wrapper div:nth-child(3) .card-block{
+.scrolling-wrapper div:nth-child(3) .card-block {
   background-color: #85ffbd;
   background-image: url(/assets/img/trifle.jpg);
 }
@@ -178,7 +171,6 @@ h2 {
   text-shadow: 1px 1px 1px #f7c79e;
   background: linear-gradient(to right, #f9f8ee, #ceaf89);
   border: none;
- 
 }
 /*price page*/
 .container-slider {
