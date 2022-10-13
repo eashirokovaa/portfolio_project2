@@ -1,4 +1,7 @@
 @media (min-width: 768px) {
+  .header-container {
+    padding: 10px 20px;
+  }
   .navbar__text {
     display: flex;
     margin-top: -15px;
@@ -24,6 +27,7 @@
   }
 }
 @media (max-width: 767px) {
+  .header-container {padding: 5px;}
   .reviews__scroll {
     height: 500px;
     background-color: #ceaf89;
@@ -38,7 +42,7 @@
   .conditions__img {
     display: none;
   }
-   .logo {
+  .logo {
     font-size: 50px;
     transform: none;
   }

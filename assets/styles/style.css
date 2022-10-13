@@ -31,7 +31,6 @@
 }
 .header-container {
   border-bottom: solid #795439 1px;
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -169,7 +168,7 @@ h2 {
   flex-wrap: wrap;
   height: 100%;
   text-shadow: 1px 1px 1px #f7c79e;
-  background: linear-gradient(to right, #f9f8ee, #ceaf89);
+  background: linear-gradient(to right, #f9f8ee, #dec774);
   border: none;
 }
 /*price page*/
@@ -205,7 +204,7 @@ h2 {
 }
 .price__scroll {
   height: 500px;
-  background: linear-gradient(to right, #f9f8ee, #ceaf89);
+  background: linear-gradient(to right, #f9f8ee, #dbba91);
   border-radius: 1%;
   overflow-x: hidden;
 }
@@ -217,13 +216,12 @@ h2 {
   height: 490px;
   font-size: 16px;
   text-shadow: 1px 1px 1px #f7c79e;
-  background: linear-gradient(to right, #f9f8ee, #ceaf89);
+  background: linear-gradient(to right, #f9f8ee, #dbba91);
   border: none;
 }
 .price__card_height {
   height: 100%;
 }
-/*cell number*/
 .price__subheading {
   position: absolute;
   margin-top: -60px;
@@ -248,7 +246,7 @@ h2 {
 .conditions__item {
   margin: 10px;
   padding: 10px;
-  background: linear-gradient(to right, #f9f8ee, #ceaf89);
+  background: linear-gradient(to right, #f9f8ee, #e3c299);
   border-radius: 7%;
 }
 .conditions__item > h5 {
